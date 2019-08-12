@@ -1,1 +1,4 @@
 <hindiid>;<marathiid>;<hiword>;<mrword>;<higloss>;<mrgloss>;<hiexample>;<mrexample>
+
+Important examples with problems:
+1936;1116;लग्गा;सतरा;अँकुसी लगा वह लंबा बाँस जिससे फल आदि तोड़े जाते हैं;दहा अधिक सात; वह लग्गे से आम तोड़ रहा है; ही इमारत बांधायला एक कोटी सतरा लाख रुपये खर्च आला.
