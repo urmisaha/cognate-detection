@@ -15,9 +15,9 @@ total_len = min(len(hi_content), len(mr_content))
 if total_len%2 == 1:
     total_len -= 1
 
-sample_data = random.sample(range(0, total_len), 2000)                                   # 
-sample_hi = sample_data[0:1000]
-sample_mr = sample_data[1000:2000]
+sample_data = random.sample(range(0, total_len), 5000)                                   # 
+sample_hi = sample_data[0:2500]
+sample_mr = sample_data[2500:5000]
 
 print("file   |   id   |   word    |   example")
 print("---------------------------------------------------------------------------------------")
@@ -27,7 +27,7 @@ for hi, mr in zip(sample_hi, sample_mr):
 
     flag = 0
     for w in hi_word:
-        if w in hi_content[hi][3]:
+        if w in hi_content[hi][3].split():
             flag = 1
             hi_word = w
             break
@@ -39,7 +39,7 @@ for hi, mr in zip(sample_hi, sample_mr):
         flag = 0
 
     for w in mr_word:
-        if w in mr_content[mr][3]:
+        if w in mr_content[mr][3].split():
             flag = 1
             mr_word = w
             break
